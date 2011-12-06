@@ -1,0 +1,32 @@
+This is a simple command-line Sudoku solver written in C for mere educational
+purposes. It expects a partially solved Sudoku board as input, that will be
+read from standard input or the file given as the first program argument, if
+given. Then, it will try to solve the board and print it solved on standard
+output.
+
+The input format is simple. The board must be given as cells from top to bottom
+and left to right, with empty cells represented by dots and other cells
+represented by its value. Example:
+
+5 3 . . 7 . . . .
+6 . . 1 9 5 . . .
+. 9 8 . . . . 6 .
+8 . . . 6 . . . 3
+4 . . 8 . 3 . . 1
+7 . . . 2 . . . 6
+. 6 . . . . 2 8 .
+. . . 4 1 9 . . 5
+. . . . 8 . . 7 9
+
+Same example in a more compact format, also valid:
+
+53..7....
+6..195...
+.98....6.
+8...6...3
+4..8.3..1
+7...2...6
+.6....28.
+...419..5
+....8..79
+
